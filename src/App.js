@@ -4,6 +4,7 @@ import {Routes, Route} from 'react-router-dom'
 import Home from './page/blue/Home';
 import AboutComp2 from './page/team/AboutComp2';
 import About from './page/green/About';
+import TeamComp from './page/team/TeamComp';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
 
         {/** team 맡을 페이지 */}
         <Route path='/about2' element={<AboutComp2 />} />
+
+        <Route path='/team' element={<TeamComp />} />
 
       </Routes>
     </div>
