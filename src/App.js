@@ -5,6 +5,8 @@ import Home from './page/blue/Home';
 import AboutComp2 from './page/team/AboutComp2';
 import About from './page/green/About';
 import TeamComp from './page/team/TeamComp';
+import TextComp from './page/green/TextComp';
+
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path='/about2' element={<AboutComp2 />} />
 
         <Route path='/team' element={<TeamComp />} />
+
+        <Route path='/text' element={<TextComp />} />
 
       </Routes>
     </div>
